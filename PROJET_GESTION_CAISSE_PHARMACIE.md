@@ -50,21 +50,12 @@ Créer une application de **gestion de caisse pour pharmacie** qui permet de :
 
 ## 3) Stack technique recommandée
 
-### Option 1 (la plus simple pour un projet scolaire)
+### Option  (la plus simple pour un projet scolaire)
 - **Backend + UI** : Python + `Tkinter`.
 - **Base de données** : `SQLite`.
 - **PDF ticket/rapport** : `reportlab` ou `fpdf2`.
 - **Graphiques** : `matplotlib`.
 
-### Option 2 (plus moderne, meilleur pour portfolio)
-- **Backend API** : `FastAPI`.
-- **Frontend** : `Streamlit` (ou web HTML/CSS simple).
-- **DB** : `SQLite` en dev puis `PostgreSQL`.
-- **ORM** : `SQLAlchemy`.
-
-👉 Si ton prof veut un projet "classique Python", prends **Option 1**.
-
----
 
 ## 4) Modèle de base de données (minimum)
 
@@ -144,7 +135,7 @@ pharmacy_pos/
 
 ---
 
-## 7) Critères d'évaluation (ce qui impressionne un prof)
+## 7) Critères d'évaluation 
 - Code modulaire (séparation UI / logique / DB).
 - Validation des entrées (pas de valeurs négatives, dates valides, etc.).
 - Gestion des erreurs propre.
@@ -158,7 +149,7 @@ pharmacy_pos/
 
 ---
 
-## 8) Bonus "niveau pro"
+## 8) Bonus 
 - Journal d'audit (`qui a fait quoi`).
 - Sauvegarde/restauration base.
 - Mode hors ligne synchronisable.
@@ -166,20 +157,4 @@ pharmacy_pos/
 
 ---
 
-## 9) Proposition de livrables pour ton prof
-1. Code source Git.
-2. Script SQL d'initialisation.
-3. `README.md` (installation + exécution + captures).
-4. 1 rapport PDF de ventes.
-5. 1 vidéo démo (3-5 min).
-
 ---
-
-## 10) Prochaine étape conseillée
-Commencer par un **MVP simple en Tkinter + SQLite**, puis ajouter progressivement les modules avancés.
-
-Si tu veux, je peux ensuite te générer :
-- la structure de projet prête à lancer ;
-- le schéma SQL complet ;
-- les écrans Tkinter de base (login, caisse, stock, rapport) ;
-- un planning de soutenance avec script de démo.
