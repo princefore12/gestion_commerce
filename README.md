@@ -19,8 +19,6 @@ Ce dépôt contient un **MVP fonctionnel** pour démarrer un projet de gestion d
 - Vente avec décrémentation FIFO du stock.
 - Rapports ventes **par période**: jour / semaine / mois / année.
 - Top produits filtré par période dans l’onglet rapports.
-- Gestion des rôles: admin / caissier / pharmacien.
-- Onglet admin pour créer des utilisateurs.
 - Vente avec décrémentation FIFO du stock.
 - Rapport du jour (total HT/TVA/TTC) et top produits.
 - Historique des ventes avec détail par ticket.
@@ -55,12 +53,8 @@ pytest -q
 
 ## Workflow Git (anti-conflits)
 - Guide détaillé: `docs/GIT_MERGE_GUIDE.md`
-- Script d'aide (depuis ta branche de PR):
+- Script d'aide (depuis la branche de PR):
 ```bash
 ./tools/sync_main.sh
 ```
-
-
-### Dépannage seed démo
-Si tu ne vois pas les produits de démonstration, ferme puis relance l'application.
-Le bootstrap ajoute désormais les **produits démo manquants** même si d'autres produits existent déjà.
+"# gestion_commerce" 
